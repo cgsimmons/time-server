@@ -1,0 +1,29 @@
+{
+  "name": "time-server",
+  "version": "1.0.0",
+  "description": "A simple time synchronization server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cgsimmons/time-server.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "time",
+    "server"
+  ],
+  "author": "Chris Simmons",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cgsimmons/time-server/issues"
+  },
+  "homepage": "https://github.com/cgsimmons/time-server#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "timesync": "^0.3.0"
+  }
+}
